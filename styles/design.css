@@ -267,13 +267,13 @@ opacity: 0px;
 margin-top: 80px;
 margin-left: 150px;
 
-border: 2px solid white;
+/* border: 2px solid white; */
 background-color:rgba(34, 34, 34, 1) ;
 }
 .middle-content{
     width: 443px;
     height: 290px;
-    border: 2px solid white;
+    /* border: 2px solid white; */
 }
 .image-7{
     width: 366px;
@@ -349,6 +349,13 @@ opacity: 0px;
     }
     .middle{
         flex-direction: column;
+        width: 443px;
+        height: 600px;
+        margin-left: 10px;
+
+    }
+    .image-7{
+        margin-left: 15px;
     }
   }
   @media screen and (min-width: 576px) and (max-width: 992px){
